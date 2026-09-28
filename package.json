@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/stripblob",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Strip CSV/TSV blob tables for quick inspection and cleanup.",
+  "bin": {
+    "stripblob": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/stripblob.git"
+  },
+  "homepage": "https://theworker02.github.io/stripblob/",
+  "keywords": [
+    "strip",
+    "blob",
+    "csv",
+    "cli",
+    "toolkit"
+  ]
+}
